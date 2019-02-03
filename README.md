@@ -1,4 +1,4 @@
-Download the [`jekyll-git-hash.rb`](https://raw.githubusercontent.com/astrob0t/jekyll-git-data/master/jekyll-git-hash.rb) file to your Jekyll `_plugins` directory.
+Download the [`jekyll-git-data.rb`](https://raw.githubusercontent.com/astrob0t/jekyll-git-data/master/jekyll-git-data.rb) file to your Jekyll `_plugins` directory.
 
 The following variables can be used inside your liquid template.
 

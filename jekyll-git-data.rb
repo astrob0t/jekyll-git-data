@@ -1,4 +1,4 @@
-# Jekyll plugin for generating current build's Git hash
+# Jekyll plugin for generating current build's Git data
 #
 # This file needs to be placed in the _plugins directory 
 # and the site.data[' '] variables can be used in the Liquid templates
