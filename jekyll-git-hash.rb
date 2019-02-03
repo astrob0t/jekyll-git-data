@@ -10,7 +10,9 @@ module Githash
     safe true
     def generate(site)
       shorthash = %x( git rev-parse --short HEAD ).strip
+      longhash = %x( git rev-parse HEAD ).strip
       site.data['shorthash'] = shorthash
+      site.data['longhash'] = longhash
     end
   end
 end
