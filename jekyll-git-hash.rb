@@ -11,8 +11,10 @@ module Githash
     def generate(site)
       shorthash = %x( git rev-parse --short HEAD ).strip
       longhash = %x( git rev-parse HEAD ).strip
+      currentbranch = %x( git rev-parse --abbrev-ref HEAD ).strip
       site.data['shorthash'] = shorthash
       site.data['longhash'] = longhash
+      site.data['currentbranch'] = currentbranch
     end
   end
 end
